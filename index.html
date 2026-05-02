@@ -3,45 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio - Cárnicos y Abarrotes Don Luis</title>
+  <title>Cárnicos & Abarrotes Don Luis</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <h1>🥩 Cárnicos & Abarrotes Don Luis</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="productos.html">Productos</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🥩</span>
+        <div>
+          <span class="logo-name">Don Luis</span>
+          <span class="logo-sub">Cárnicos & Abarrotes</span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="active">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Bienvenido a nuestra tienda</h2>
-      <p>Más de 20 años llevando frescura y calidad a las mesas de Bogotá. Carnes frescas, abarrotes de primera y atención personalizada.</p>
-      <a href="productos.html" class="btn">Ver catálogo</a>
-    </section>
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">📍 Kennedy, Bogotá</p>
+      <h1>Frescura del campo<br><em>directo a tu mesa</em></h1>
+      <p class="hero-desc">Más de 20 años llevando carnes frescas y abarrotes de calidad a las familias bogotanas. Tradición, sabor y confianza.</p>
+      <div class="hero-btns">
+        <a href="productos.html" class="btn-primary">Ver catálogo</a>
+        <a href="contacto.html" class="btn-secondary">Pedir domicilio</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-badge">
+        <span class="badge-num">20+</span>
+        <span class="badge-txt">años de<br>experiencia</span>
+      </div>
+      <div class="hero-card c1">🥩 Carne fresca a diario</div>
+      <div class="hero-card c2">🚚 Domicilios sin costo mínimo</div>
+      <div class="hero-card c3">⭐ Calidad garantizada</div>
+    </div>
+  </section>
 
-    <section class="beneficios">
-      <div class="beneficio">
-        <h3>🕐 Horario</h3>
-        <p>Lunes a sábado<br>6:00 a.m. – 7:00 p.m.</p>
-      </div>
-      <div class="beneficio">
-        <h3>📍 Ubicación</h3>
-        <p>Barrio Kennedy<br>Bogotá, Colombia</p>
-      </div>
-      <div class="beneficio">
-        <h3>🚚 Domicilios</h3>
-        <p>Pedidos por WhatsApp<br>Sin costo mínimo</p>
-      </div>
-    </section>
-  </main>
+  <section class="stats">
+    <div class="stat">
+      <span class="stat-num">500+</span>
+      <span class="stat-label">Clientes frecuentes</span>
+    </div>
+    <div class="divider"></div>
+    <div class="stat">
+      <span class="stat-num">6am</span>
+      <span class="stat-label">Abrimos temprano</span>
+    </div>
+    <div class="divider"></div>
+    <div class="stat">
+      <span class="stat-num">80+</span>
+      <span class="stat-label">Productos disponibles</span>
+    </div>
+    <div class="divider"></div>
+    <div class="stat">
+      <span class="stat-num">20</span>
+      <span class="stat-label">Años en el mercado</span>
+    </div>
+  </section>
+
+  <section class="categorias">
+    <div class="section-header">
+      <h2>Lo que encontrarás</h2>
+      <p>Selección diaria de productos frescos y de despensa</p>
+    </div>
+    <div class="cat-grid">
+      <a href="productos.html" class="cat-card cat-carnicos">
+        <span class="cat-emoji">🥩</span>
+        <h3>Cárnicos</h3>
+        <p>Res, cerdo, pollo y más — cortados al momento</p>
+        <span class="cat-link">Ver productos →</span>
+      </a>
+      <a href="productos.html" class="cat-card cat-abarrotes">
+        <span class="cat-emoji">🛒</span>
+        <h3>Abarrotes</h3>
+        <p>Granos, aceites, lácteos y todo para la cocina</p>
+        <span class="cat-link">Ver productos →</span>
+      </a>
+      <a href="contacto.html" class="cat-card cat-domicilio">
+        <span class="cat-emoji">🚚</span>
+        <h3>Domicilios</h3>
+        <p>Pedidos por WhatsApp, rápido y sin complicaciones</p>
+        <span class="cat-link">Pedir ahora →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="cta-inner">
+      <h2>¿Listo para hacer tu pedido?</h2>
+      <p>Escríbenos por WhatsApp y te atendemos al instante</p>
+      <a href="contacto.html" class="btn-primary">Contactar ahora</a>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 Cárnicos & Abarrotes Don Luis — Bogotá, Colombia</p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">🥩</span>
+        <div>
+          <span class="logo-name">Don Luis</span>
+          <span class="logo-sub">Cárnicos & Abarrotes</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <p class="footer-copy">© 2025 Cárnicos & Abarrotes Don Luis — Bogotá, Colombia</p>
+    </div>
   </footer>
 
 </body>
