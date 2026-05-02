@@ -1,73 +1,185 @@
+Productos · HTML
+Copiar
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Productos - Cárnicos y Abarrotes</title>
+  <title>Catálogo - Cárnicos & Abarrotes Don Luis</title>
   <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
+ 
   <header>
-    <h1>🥩 Cárnicos & Abarrotes Don Luis</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="productos.html">Productos</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">🥩</span>
+        <div>
+          <span class="logo-name">Don Luis</span>
+          <span class="logo-sub">Cárnicos & Abarrotes</span>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html" class="active">Productos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
   </header>
-
-  <main>
-    <h2>Catálogo de Productos</h2>
-
-    <section class="categoria">
-      <h3>🥩 Cárnicos</h3>
+ 
+  <div class="page-hero">
+    <h1>Catálogo de <em>Productos</em></h1>
+    <p>Selección fresca actualizada cada día</p>
+  </div>
+ 
+  <main class="catalogo">
+ 
+    <section class="cat-section">
+      <div class="cat-title">
+        <span>🥩</span>
+        <div>
+          <h2>Cárnicos</h2>
+          <p>Frescos, de primera calidad, cortados al momento</p>
+        </div>
+      </div>
       <div class="productos-grid">
-        <div class="producto">
-          <h4>Pechuga de pollo</h4>
-          <p>Fresca y sin hueso. Precio por libra: $6.500</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🐔</div>
+          <div class="prod-info">
+            <h4>Pechuga de pollo</h4>
+            <p>Fresca y sin hueso, ideal para asados y guisos</p>
+            <span class="prod-precio">$6.500 / libra</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Lomo de res</h4>
-          <p>Corte premium, ideal para asar. Precio por libra: $14.000</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🥩</div>
+          <div class="prod-info">
+            <h4>Lomo de res</h4>
+            <p>Corte premium, suave y jugoso, ideal para la parrilla</p>
+            <span class="prod-precio">$14.000 / libra</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Costilla de cerdo</h4>
-          <p>Perfecta para hornear o a la brasa. Precio por libra: $9.000</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🐷</div>
+          <div class="prod-info">
+            <h4>Costilla de cerdo</h4>
+            <p>Perfecta para hornear o hacer a la brasa</p>
+            <span class="prod-precio">$9.000 / libra</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Carne molida</h4>
-          <p>Mezcla res/cerdo, ideal para guisos. Precio por libra: $8.500</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🫙</div>
+          <div class="prod-info">
+            <h4>Carne molida</h4>
+            <p>Mezcla res y cerdo, lista para guisos y arepas</p>
+            <span class="prod-precio">$8.500 / libra</span>
+          </div>
+        </div>
+        <div class="prod-card">
+          <div class="prod-emoji">🐄</div>
+          <div class="prod-info">
+            <h4>Chuleta de res</h4>
+            <p>Gruesa y bien marmoleada, perfecta al término</p>
+            <span class="prod-precio">$12.000 / libra</span>
+          </div>
+        </div>
+        <div class="prod-card">
+          <div class="prod-emoji">🌭</div>
+          <div class="prod-info">
+            <h4>Chorizo casero</h4>
+            <p>Elaboración artesanal, sabor auténtico colombiano</p>
+            <span class="prod-precio">$7.000 / libra</span>
+          </div>
         </div>
       </div>
     </section>
-
-    <section class="categoria">
-      <h3>🛒 Abarrotes</h3>
+ 
+    <section class="cat-section">
+      <div class="cat-title">
+        <span>🛒</span>
+        <div>
+          <h2>Abarrotes</h2>
+          <p>Todo lo que necesita tu cocina en un solo lugar</p>
+        </div>
+      </div>
       <div class="productos-grid">
-        <div class="producto">
-          <h4>Arroz Diana x 500g</h4>
-          <p>Grano largo, calidad premium. $3.200</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🌾</div>
+          <div class="prod-info">
+            <h4>Arroz Diana x 500g</h4>
+            <p>Grano largo extra, calidad premium garantizada</p>
+            <span class="prod-precio">$3.200</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Aceite vegetal x 1L</h4>
-          <p>100% vegetal, sin colesterol. $8.900</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🫒</div>
+          <div class="prod-info">
+            <h4>Aceite vegetal x 1L</h4>
+            <p>100% vegetal, sin colesterol, ideal para freír</p>
+            <span class="prod-precio">$8.900</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Fríjoles x 500g</h4>
-          <p>Variedad cargamanto rojo. $4.500</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🫘</div>
+          <div class="prod-info">
+            <h4>Fríjoles x 500g</h4>
+            <p>Variedad cargamanto rojo, cultivados en Antioquia</p>
+            <span class="prod-precio">$4.500</span>
+          </div>
         </div>
-        <div class="producto">
-          <h4>Panela x 500g</h4>
-          <p>Producción local, sin preservantes. $2.800</p>
+        <div class="prod-card">
+          <div class="prod-emoji">🍫</div>
+          <div class="prod-info">
+            <h4>Panela x 500g</h4>
+            <p>Producción local, sin preservantes, sabor natural</p>
+            <span class="prod-precio">$2.800</span>
+          </div>
+        </div>
+        <div class="prod-card">
+          <div class="prod-emoji">🥚</div>
+          <div class="prod-info">
+            <h4>Huevos x 12 und</h4>
+            <p>Frescos de granja, tamaño AA, recogidos a diario</p>
+            <span class="prod-precio">$9.500</span>
+          </div>
+        </div>
+        <div class="prod-card">
+          <div class="prod-emoji">🥛</div>
+          <div class="prod-info">
+            <h4>Leche entera x 1L</h4>
+            <p>Pasteurizada, entera, marca Alquería o Colanta</p>
+            <span class="prod-precio">$3.400</span>
+          </div>
         </div>
       </div>
     </section>
+ 
+    <div class="pedido-banner">
+      <p>¿No encuentras lo que buscas? Escríbenos y lo conseguimos.</p>
+      <a href="contacto.html" class="btn-primary">Hacer pedido especial</a>
+    </div>
+ 
   </main>
-
+ 
   <footer>
-    <p>© 2025 Cárnicos & Abarrotes Don Luis — Bogotá, Colombia</p>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">🥩</span>
+        <div>
+          <span class="logo-name">Don Luis</span>
+          <span class="logo-sub">Cárnicos & Abarrotes</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <p class="footer-copy">© 2025 Cárnicos & Abarrotes Don Luis — Bogotá, Colombia</p>
+    </div>
   </footer>
-
+ 
 </body>
 </html>
